@@ -1,14 +1,108 @@
-<button onclick="showContent()">Show hidden content</button>
+<HTML>
+<HEAD>
+   <TITLE>Esempio 4</TITLE>
+</HEAD>
+<BODY BACKGROUND="titto_green_paper.jpg">
 
-<template>
-  <h2>Flower</h2>
-  <img src="img_white_flower.jpg" width="214" height="204">
-</template>
+<CENTER><H1><A NAME="Indice"></A>Indice</H1></CENTER>
 
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
+<CENTER><FONT SIZE=+1>esempio di indice con riferimenti interni alla pagina</FONT></CENTER>
+
+<HR WIDTH="100%">
+<UL>
+  <LI><A HREF="#intro">Introduzione</A></LI>
+  <LI><A HREF="#Primo">Capitolo Primo</A></LI>
+  <LI><A HREF="#Secondo">Capitolo Secondo</A></LI>
+  <LI><A HREF="#Terzo">Capitolo Terzo</A></LI>
+  <LI><A HREF="#Analitico">Indice Analitico</A></LI>
+</UL>
+
+<HR WIDTH="100%">
+
+<CENTER><H1><A NAME="intro"></A>Introduzione</H1></CENTER>
+    Bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla
+    <A NAME="parola_chiave_1"></A>
+    <FONT COLOR="#FF0000">parola_chiave_1</FONT> bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla
+    <A NAME="parola_chiave_2"></A>
+    <FONT COLOR="#FF0000">parola_chiave_2</FONT> bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla
+<BR>(<I>torna all'<A HREF="#Indice">indice</A></I>)
+<BR>
+<HR WIDTH="100%">
+
+<CENTER><H1><A NAME="Primo"></A>Capitolo Primo</H1></CENTER>
+    Bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla
+    <A NAME="parola_chiave_3"></A>
+    <FONT COLOR="#FF0000">parola_chiave_3</FONT> bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>(<I>torna all'<A HREF="#Indice">indice</A></I>)
+<BR>
+<HR WIDTH="100%">
+
+<CENTER><H1><A NAME="Secondo"></A>Capitolo Secondo</H1></CENTER>
+    Bla bla bla bla bla bla bla bla bla
+    <A NAME="parola_chiave_4"></A>
+    <FONT COLOR="#FF0000">parola_chiave_4</FONT> bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla
+<BR>bla
+    <A NAME="parola_chiave_5"></A>
+    <FONT COLOR="#FF0000">parola_chiave_5</FONT> bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla
+<BR>(<I>torna all'<A HREF="#Indice">indice</A></I>)
+<BR>
+<HR WIDTH="100%">
+
+<CENTER><H1><A NAME="Terzo"></A>Capitolo Terzo</H1></CENTER>
+    Bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla
+    <A NAME="parola_chiave_6"></A>
+    <FONT COLOR="#FF0000">parola_chiave_6</FONT>
+    bla bla bla bla bla bla bla
+    <A NAME="parola_chiave_7"></A>
+    <FONT COLOR="#FF0000">parola_chiave_7</FONT> bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+<BR>bla bla bla
+<BR>(<I>torna all'<A HREF="#Indice">indice</A></I>)
+<BR>
+<HR WIDTH="100%">
+
+<CENTER><H1><A NAME="Analitico"></A>Indice Analitico</H1></CENTER>
+    <A HREF="#parola_chiave_1">parola_chiave_1</A>
+<BR><A HREF="#parola_chiave_2">parola_chiave_2</A>
+<BR><A HREF="#parola_chiave_3">parola_chiave_3</A>
+<BR><A HREF="#parola_chiave_4">parola_chiave_4</A>
+<BR><A HREF="#parola_chiave_5">parola_chiave_5</A>
+<BR><A HREF="#parola_chiave_6">parola_chiave_6</A>
+<BR><A HREF="#parola_chiave_7">parola_chiave_7</A>
+
+<P>(<I>torna all'<A HREF="#Indice">indice</A></I>)
+<BR>
+</BODY>
+</HTML>
+
+
